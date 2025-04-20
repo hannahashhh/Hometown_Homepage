@@ -1,0 +1,118 @@
+  
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    color: #344E41;
+    overflow-x: hidden;
+    background-color: #ffff;
+}
+
+.hero{
+    background-image: url(images/barn.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 60px 20px;
+    text-align: center;
+}
+.text {
+    background-color: #4a5638;
+    color: #B5C99A;
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    
+   
+  }
+  #one{
+    margin-bottom: 20px;
+}
+
+.activities{
+    background-color: #E9F5DB;
+    padding: 50px 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#activities-header{
+    font-size: 23px;
+}
+.activity-img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+.guide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #B5C99A;
+    margin: auto;
+    border-bottom: #718355 solid 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+#profile{
+    width: 175px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+h3{
+    margin-top: 0;
+}
+#guide-txt{
+    width: auto;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 600px) {
+    .text {
+      font-size: 1rem;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .activity {
+      width: 90%;
+    }
+  
+    .guide {
+      flex-direction: column;
+      margin-top: 30px;
+      width: fit-content;
+      border-radius: 0;
+    }
+  
+    #float-img img {
+      width: 120px;
+      margin-bottom: 15px;
+    }
+  
+    #guide-txt {
+      padding: 0 10px;
+    }
+    #profile{
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+  }
+  
+  
